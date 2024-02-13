@@ -7,6 +7,10 @@
     --font: 'consolas', 'courier new';
 }
 
+a {
+    color: var(--font);
+}
+
 a:link {
     text-decoration: none;
     }
@@ -127,6 +131,7 @@ body {
     width: 100%;
     position:relative;
     z-index: 1;
+    padding-bottom: 0.3rem;
 }
 
 .bilder1 {
@@ -139,6 +144,7 @@ body {
     outline-offset: -3px;
     z-index: 1;
     align-content: start;
+    gap:0.3rem;
 }
 
 .bilder2 {
@@ -151,6 +157,7 @@ body {
     outline-offset: -3px;
     z-index: 1;
     align-content: start;
+    gap:0.3rem;
 }
 
 .tunder {
@@ -208,8 +215,8 @@ body {
     grid-column-end: 5;
     padding-top: 5%; 
     padding-bottom: 5%; 
-    padding-right: 8%;
-    padding-left: 8%;
+    padding-right: 9%;
+    padding-left: 9%;
     width: auto;
     position: relative;
 }
@@ -316,17 +323,17 @@ body {
 }
 
 .kontakt { 
-    display: grid;
+    /* display: grid;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 5; */
     font-family: var(--font);
     font-style: normal;
     color: var(--tekst);
     font-size: 1rem;
     padding: 3rem;
     margin-left: 1rem;
+    margin-top: 5rem;
     border: var(--border) dashed var(--tekst);
-    align-self: end;
 }
 
 .ommeg {
