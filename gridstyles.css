@@ -77,6 +77,8 @@ body {
 .mini {
     height: auto;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main {
@@ -344,6 +346,10 @@ body {
     color: var(--tekst);
     font-size: 1rem;
     padding: 3rem;
+}
+
+.foot {
+    padding-top: 5rem;
 }
 
 @media only screen and (max-width: 600px) {  
