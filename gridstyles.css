@@ -440,6 +440,12 @@ body {
         padding-left: 1rem;
     }
 
+    .bildemain {
+        transform: rotateZ(90deg);
+        display: block;
+        height:auto;
+        min-width: 100%;
+    }
     .bilder1 {
         display: grid;
         grid-column-start: 1;
