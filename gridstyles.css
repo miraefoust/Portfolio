@@ -31,6 +31,18 @@ a:link {
     text-decoration: none;
     }
 
+
+h2 {
+    font-family: var(--font);
+    font-style: normal;
+    color: var(--tekst);
+    font-size: 0.9rem;
+    line-height: 0.2;
+    letter-spacing: 0.02em;
+    text-wrap: wrap;
+    padding-left: 1rem;
+}
+
 h3 {
     font-family: var(--font);
     font-style: normal;
@@ -138,6 +150,15 @@ body {
     }
 }
 
+.line {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-bottom: var(--border) dashed var(--tekst);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .bilde {
     display: grid;
     grid-column-start: 1;
@@ -231,8 +252,9 @@ body {
     padding-bottom: 5%; 
     padding-right: 9%;
     padding-left: 9%;
-    width: auto;
+    /* width: auto; */
     position: relative;
+    object-fit: contain;
 }
 
 .bildemidt {
