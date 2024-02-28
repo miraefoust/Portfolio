@@ -451,6 +451,7 @@ body {
         font-family: var(--font);
         font-style: normal;
         color: var(--tekst);
+        text-decoration: underline;
         font-size: 1.1rem;
         line-height: 0.5;
         letter-spacing: 0.02em;
@@ -492,7 +493,7 @@ body {
     }
 
     .bildemain {
-        transform: rotateZ(90deg);
+        /* transform: rotateZ(90deg); */
         display: block;
         height:auto;
         min-width: 100%;
