@@ -510,6 +510,11 @@ body {
         grid-column-end: 3;
     }
 
+    .bildemidt {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
     .tekstvb1 {
         display: grid;
         grid-column-start: 1;
