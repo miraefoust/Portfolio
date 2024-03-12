@@ -257,11 +257,18 @@ body {
     object-fit: contain;
 }
 
+iframe {
+    display:grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
 .bildemidt {
     display:grid;
     grid-column-start: 2;
     grid-column-end: 4;
 }
+
 .bildemain {
     display:grid;
     grid-column-start: 1;
