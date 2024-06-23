@@ -288,7 +288,15 @@ iframe {
     grid-column-start: 1;
     grid-column-end: 3;
     width:auto;
-    height: 50%;
+    height: 100%;
+    background: url(bilder/heisskiss.png);
+    background-size: 100%;
+    margin: 2rem;
+}
+
+.me:hover {
+    background: url(bilder/heis.jpg);
+    background-size: 100%;
 }
 
 .galleri:hover {
