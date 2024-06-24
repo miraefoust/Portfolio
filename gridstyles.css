@@ -537,6 +537,7 @@ iframe {
         display: block;
         height:auto;
         min-width: 100%;
+        min-height: auto;
     }
     .bilder1 {
         display: grid;
@@ -553,6 +554,17 @@ iframe {
     .bildemidt {
         grid-column-start: 1;
         grid-column-end: 3;
+    }
+
+    .me {
+        display:grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width:auto;
+        height: 100%;
+        background: url(bilder/heisskiss.png);
+        background-size: 100%;
+        margin: 2rem;
     }
 
     .tekstvb1 {
