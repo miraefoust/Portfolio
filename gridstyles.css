@@ -12,6 +12,95 @@
     src: "p";
 }
 
+@font-face {
+    font-family: NoNameYet;
+    src: url(NoNameYet-1.6VF.ttf);
+}
+
+/* .ymttekst {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-content: center;
+    font-family: nonameyet;
+    color: var(--tekst);
+    font-size: 5rem;
+    padding: 3rem;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+} */
+
+.ymt {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* justify-content: right; */
+    font-family: nonameyet;
+    color: var(--tekst);
+    animation-name: MINFONT;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        transition: 0.1s ease-in-out;
+    font-size: 4rem;
+    padding: 2rem;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    .ymttekst {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 2;
+        font-family: "NoNameYet";
+        color: var(--tekst);
+        animation-name: MINFONT;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        transition: 0.1s ease-in-out;
+        font-size: 9rem;
+        /* margin-top: -10rem; */
+    
+      }
+
+.ymtlinks {
+font-size: 4rem;
+font-family: "NoNameYet", nimbus-sans, sans-serif;
+font-variation-settings: "gric" 0, "mtic" 0, "lear" 100;
+color: var(--tekst);
+transition: 0.5s ease-in-out;
+letter-spacing: -15px;
+white-space: nowrap;
+}
+
+.ymtlinks:hover {
+font-size: 4rem;
+font-family: "NoNameYet", nimbus-sans, sans-serif;
+font-variation-settings: "gric" 0, "mtic" 0, "lear" 0;
+letter-spacing: normal;
+}
+
+@keyframes MINFONT {
+    0% {
+      font-variation-settings: "gric" 0, "mtic" 0, "lear" 0;
+      letter-spacing: normal;
+    }
+  
+    50% {
+      font-variation-settings: "gric" 20, "mtic" 11, "lear" 0;
+      letter-spacing: -2px;
+    }
+  
+    100% {
+      font-variation-settings: "gric" 0, "mtic" 0, "lear" 0;
+      letter-spacing: normal;
+    }
+  }
+
 img {
     width:100%;
 }
@@ -358,6 +447,8 @@ iframe {
     margin-left: auto;
     margin-right:auto;
 }
+
+
 
 .tekstkant { 
     display: grid;
