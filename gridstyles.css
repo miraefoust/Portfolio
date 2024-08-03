@@ -372,6 +372,38 @@ iframe {
     width: auto;
 }
 
+.changetek {
+    z-index: 1;
+}
+
+.changetek:hover {
+    
+    position: fixed;
+    left: 0rem;
+    width: 100%;
+    position:absolute;
+    height: 100vh;
+    background: url(bilder/bestemor.jpg);
+    background-size: 100%;
+}
+
+.change2 {
+    z-index: 1;
+}
+
+.change2:hover {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    position:absolute;
+    height: 100vh;
+    background: url(bilder/sit.gif);
+    background-size: 100%;
+}
+
 .me {
     display:grid;
     grid-column-start: 1;
@@ -685,6 +717,44 @@ iframe {
         padding: 3rem; */
         padding:1rem;
     }
+
+    .ymttekst {
+        position: absolute;
+        /* top: 50%;
+        left: 50%; */
+        z-index: 2;
+        font-family: "NoNameYet";
+        color: var(--tekst);
+        animation-name: MINFONT;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        transition: 0.1s ease-in-out;
+        font-size: 9rem;
+        /* margin-top: -10rem; */
+        margin-left: -10rem;
+    
+      }
+
+    .ymtlinks {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 2rem;
+    font-family: "NoNameYet", nimbus-sans, sans-serif;
+    font-variation-settings: "gric" 0, "mtic" 0, "lear" 100;
+    color: var(--tekst);
+    transition: 0.5s ease-in-out;
+    letter-spacing: -8px;
+    white-space: nowrap;
+    }
+
+    .ymtlinks:hover {
+        
+        font-size: 2rem;
+        font-family: "NoNameYet", nimbus-sans, sans-serif;
+        font-variation-settings: "gric" 0, "mtic" 0, "lear" 0;
+        letter-spacing: normal;}
+
 
     .fire1 {
         display: grid;
