@@ -425,7 +425,7 @@ iframe {
 }
 
 .galleri:hover {
-    opacity:50%;
+    opacity:20%;
     z-index: -5;
 }
 
