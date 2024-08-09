@@ -420,7 +420,9 @@ iframe {
     background-size: 100%;
 }
 
-
+.mediainfo {
+    display:none;
+}
 
 .galleri:hover {
     opacity:50%;
@@ -680,6 +682,17 @@ iframe {
     .bildemidt {
         grid-column-start: 1;
         grid-column-end: 3;
+    }
+
+    .mediainfo {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-family: var(--font);
+        font-style: normal;
+        color: var(--tekst);
+        font-size: 1rem;
+        padding: 3rem;
     }
 
     .me {
