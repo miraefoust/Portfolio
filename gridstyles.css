@@ -244,6 +244,24 @@ body {
     }
 }
 
+.innholdshop {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: var(--border) dashed var(--tekst);
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 5rem;
+    overflow: hidden;
+
+    img {
+        width:100%;
+    }
+
+    video {
+        width: 100%;
+    }
+}
+
 .line {
     display: grid;
     grid-column-start: 1;
@@ -534,7 +552,7 @@ iframe {
     display:flex;
     font-family: 'consolas', 'courier new';
     font-style: normal;
-    color: rgb(255, 255, 255);
+    color: var(--gal);
     font-size: 1rem;
     position: absolute;
     min-width: 70%;
