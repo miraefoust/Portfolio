@@ -562,6 +562,15 @@ iframe {
     z-index: -3;
 }
 
+.slideshow{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 100%;
+    position:relative;
+    z-index: 1;
+    padding-bottom: 0.3rem;
+}
 
 .kontakt { 
     /* display: grid;
