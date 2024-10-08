@@ -182,6 +182,7 @@ h6 {
 body {
     background-image: var(--img);
     background-color: var(--back); 
+    background-size: auto;
 }
 
 
@@ -673,6 +674,39 @@ iframe {
         }
     }
 
+    .bilde {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .bilder1 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .bilder2 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .bildemidt {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .bildemidt {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .tekst { 
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
     .tekstvb2 {
         grid-column-start: 1;
         grid-column-end: 3;
@@ -684,6 +718,11 @@ iframe {
         padding: 1rem;
         align-self: center;
     }
+    .video {
+        display:grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 
 }
 
@@ -694,6 +733,9 @@ iframe {
     }
     body {
         background-color: var(--back); 
+        background-size: 250%;
+        background-position: bottom;
+        /* background-repeat: no-repeat; */
     }
 
     .main {
@@ -708,7 +750,7 @@ iframe {
         padding: 1rem;
         overflow: hidden;
         position:relative;
-        margin-top: 400px;
+        margin-top: var(--meny);
     }
     .meny {
         position: absolute;
@@ -724,8 +766,6 @@ iframe {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-
-
 
     .mini {
         display: none;
@@ -849,7 +889,7 @@ iframe {
         grid-column-start: 1;
         grid-column-end: 3;
         width:auto;
-        height: 100%;
+        height: 400px;
         background: url(bilder/heisskiss.png);
         background-size: 100%;
         margin: 2rem;

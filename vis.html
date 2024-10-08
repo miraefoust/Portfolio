@@ -11,7 +11,18 @@
             :root {
                 --back: #ff0000;
                 --tekst: #ffffff;
-                --img: url(bilder/music.gif)
+                --img: url(bilder/music.gif);
+                /* --meny: 320px; */
+            }
+            @media only screen and (max-width: 600px) {  
+                .innhold {
+                    border: none;
+                }
+                
+                body {
+                    background-blend-mode: darken;
+                }
+
             }
         </style>
     

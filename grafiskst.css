@@ -51,6 +51,44 @@ body {
     }
 }
 
+#catbox {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 300px;
+    overflow-y: scroll;
+    scroll-timeline: --squareTimeline y;
+    scroll-timeline: --squareTimeline vertical;
+    /* position: relative; */
+  }
+
+#cat {
+    background-color: deeppink;
+    width: 100px;
+    height: 100px;
+    animation-name: rotateAnimation;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    animation-timeline: --squareTimeline;
+    position: absolute;
+    bottom: 0;
+}
+
+#stretcher {
+    height: 600px;
+    background: #dedede;
+}
+
+@keyframes rotateAnimation {
+from {
+    transform: rotate(0deg);
+}
+
+to {
+    transform: rotate(360deg);
+}
+}
+
+
 .inngrid {
     display: grid;
     grid-column-start: 1;
