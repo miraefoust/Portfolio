@@ -17,6 +17,11 @@
     src: url(NoNameYet-1.6VF.ttf);
 }
 
+@font-face {
+    font-family: Elephant;
+    src: url(../../../Downloads/ELEPHNT.TTF);
+}
+
 /* .ymttekst {
     display: grid;
     grid-column-start: 1;

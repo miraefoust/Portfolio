@@ -1,0 +1,108 @@
+.midt {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.welcome {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    text-align: center;
+}
+
+/* 5x5 grid under. abcde x abcde*/
+
+.bc {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.db {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.dc {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width:120%;
+}
+
+/* span for exhibitions. x span, y span */
+
+.acab {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    grid-template-columns: 1fr 1fr;
+}
+
+.cecd {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+/* scroll placement. s(scroll) + abcde x axis*/
+.sad {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    position: relative;
+    height: auto;
+}
+
+.sce {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    position: relative;
+}
+
+.sac {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    position: relative;
+    align-content: start;
+}
+
+.box {
+    background-color: beige;
+    border-color: black;
+    border-style: solid;
+
+    font-family: var(--font);
+    font-style: normal;
+    color: var(--tekst);
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
