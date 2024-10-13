@@ -70,6 +70,17 @@
     grid-row-end: 5;
 }
 
+.cede {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    
+    grid-row-start: 4;
+    grid-row-end: 6;
+    position: relative;
+    height: auto;
+}
+
 /* scroll placement. s(scroll) + abcde x axis*/
 .sad {
     display: grid;
@@ -94,6 +105,14 @@
     align-content: start;
 }
 
+.sab {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* additional */
+
 .box {
     background-color: beige;
     border-color: black;
@@ -104,5 +123,21 @@
     color: var(--tekst);
     font-size: 1.1rem;
     padding: 1rem;
+    margin: 1rem;
+    /* margin-bottom: 0rem; */
+    /* height:fit-content; */
+}
+
+.big {
+    margin-left: -3rem;
+    width: 200% !important;
+}
+
+.full {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    position: relative;
+
     margin: 1rem;
 }
