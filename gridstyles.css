@@ -470,17 +470,14 @@ iframe {
     grid-column-end: 3;
     width:auto;
     height: 100%;
-    background: url(bilder/heisskiss.png);
+    background: url(bilder/meanima.gif);
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 2rem;
 }
 
-
-
-
 .me:hover {
-    background: url(bilder/heis.jpg);
+    background: url(bilder/meg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }

@@ -45,7 +45,6 @@
     
     grid-row-start: 3;
     grid-row-end: 4;
-    width:120%;
 }
 
 /* span for exhibitions. x span, y span */
@@ -79,6 +78,33 @@
     grid-row-end: 6;
     position: relative;
     height: auto;
+}
+
+.bcbd {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.ddbd {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.bdbd {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    
+    grid-row-start: 2;
+    grid-row-end: 5;
 }
 
 /* scroll placement. s(scroll) + abcde x axis*/
@@ -128,6 +154,11 @@
     /* height:fit-content; */
 }
 
+.delt {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
 .big {
     margin-left: -3rem;
     width: 200% !important;
@@ -140,4 +171,24 @@
     position: relative;
 
     margin: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {  
+    .acab, .cecd, .cede, .sab, .sac, .sce, .bc, .dc {
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+
+    .big {
+        margin-left: 0;
+        width: 100% !important;
+    }
+
+    .box {
+        grid-template-columns: 1fr;
+    }
+
+
+
 }
