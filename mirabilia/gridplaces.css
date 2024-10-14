@@ -105,6 +105,7 @@
     
     grid-row-start: 2;
     grid-row-end: 5;
+    min-width: 25%;
 }
 
 /* scroll placement. s(scroll) + abcde x axis*/
@@ -175,7 +176,7 @@
 
 
 @media only screen and (max-width: 600px) {  
-    .acab, .cecd, .cede, .sab, .sac, .sce, .bc, .dc {
+    .acab, .cecd, .cede, .sab, .sac, .sce, .bc, .dc, .dbdb{
         grid-column-start: 1;
         grid-column-end: 6;
     }

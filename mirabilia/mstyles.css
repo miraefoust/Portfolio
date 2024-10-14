@@ -47,6 +47,33 @@ h3 {
     margin-block: 0;
 }
 
+p {
+    font-family: var(--font);
+    font-style: normal;
+    color: var(--tekst);
+    font-size: 1.1rem;
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+    text-wrap:wrap;
+    margin-block: 0;
+    align-content: flex-start;
+}
+
+h2 {
+    font-family: Elephant;
+    font-style: normal;
+    color: var(--tekst);
+    font-size: 1.1rem;
+    /* line-height: 0.9;
+    letter-spacing: 0.05em; */
+    text-wrap:wrap;
+    margin-block: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-weight: normal;
+}
+
 h1 {
     font-family: Elephant;
     font-style: normal;
