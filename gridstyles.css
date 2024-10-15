@@ -652,7 +652,7 @@ iframe {
         grid-column-end: 3;
         width:auto;
         height: 70vh;
-        background: url(bilder/heisskiss.png);
+        background: url(bilder/meanima.gif);
         background-size: 100%;
         background-repeat: no-repeat;
         margin: 2rem;
@@ -892,7 +892,7 @@ iframe {
         grid-column-end: 3;
         width:auto;
         height: 400px;
-        background: url(bilder/heisskiss.png);
+        background: url(bilder/meanima.gif);
         background-size: 100%;
         margin: 2rem;
     }
