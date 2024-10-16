@@ -11,20 +11,25 @@
             :root {
                 --back: #ff0000;
                 --tekst: #ffffff;
-                --img: url(bilder/music.gif);
+                /* --img: url(bilder/music.gif); */
                 /* --meny: 320px; */
             }
 
-            .innhold {
+            /* .innhold {
                 border: none;
-            }
+            } */
             @media only screen and (max-width: 600px) {  
                 .innhold {
                     border: none;
                 }
                 
                 body {
+                    --img: url(bilder/music.gif);
                     background-blend-mode: darken;
+                }
+
+                .bildemain {
+                    display: none;
                 }
 
             }
@@ -56,7 +61,7 @@
             </div>
             <div class="innhold">
                 <div class="bildemain">
-                    <!-- <img src="bilder/music.gif"> -->
+                    <img src="bilder/music.gif">
                 </div>
                 
                 <!-- <img class="bildemain" src="bilder/mira.JPG"> -->
