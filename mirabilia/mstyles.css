@@ -181,7 +181,7 @@ h1 {
         text-align: right;
     }
 
-.innhold, .innholdbg {
+.innhold, .innholdbg, .innholdstat {
     display: grid;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -222,6 +222,11 @@ h1 {
 
     min-height: 94vh;
     height: fit-content;
+}
+
+.innholdstat {
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 /* .scroll {
