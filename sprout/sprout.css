@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+    max-height: 94vh;
+}
+@keyframes back{
+    0% {left:4px; right:0px;}
+    50% {left:0px; right: 4px;}
+    100% {left:4px; right:0px;}
+}
+
+/* @keyframes back{
+    0% {left:0x; right:4px;}
+    50% {left:4px; right: 0px;}
+    100% {left:0px; right:4px;}
+} */
+
+@keyframes test3{
+    0% {left:0px; right:4px;}
+    50% {left:4px; right:0px;}
+    100% {left:0px; right:4px;}
+}
+
+@keyframes test2{
+    0% {left:0px; right:14px;}
+    50% {left:14px; right:0px;}
+    100% {left:0px; right:14px;}
+}
+
+@keyframes test1{
+    0% {left:0px; right:20px;}
+    50% {left:20px; right:0px;}
+    100% {left:0px; right:20px;}
+}
+
+/* @keyframes test2{
+    0% {left:0px; right:14px;}
+    50% {left:14px; right:0px;}
+    100% {left:0px; right:14px;}
+} */
+
+
+
+
+.top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 94vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+}
+
+/* .welcome {
+
+} */
+
+.box {
+    background-color: rgb(224, 224, 224);
+    border-color: black;
+    border-style: solid;
+
+    font-family: var(--font);
+    font-style: italic;
+    text-align: center;
+    color: var(--tekst);
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin: 1rem;
+    /* margin-bottom: 0rem; */
+    /* height:fit-content; */
+}
+
+.main {
+    height: 94vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(181, 181, 181); */
+}
+
+.main1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 94vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    z-index: -1;
+
+    animation-name: test3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.main2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 94vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    z-index: -2;
+
+    animation-name: test2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.main3 {
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    right: 10%;
+    height: 94vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    z-index: -3;
+    animation-name: test1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    /* img {
+        width:100%;
+    } */
+}
+
+.back {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 94vh;
+    width:auto;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    z-index: -4;
+    animation-name: back;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    /* img {
+        width:100%;
+    } */
+}
+
+.background {
+    /* max-width: 94vw; */
+    width:fit-content;
+    
+}
+
+.welcome {
+    position: absolute;
+}
+
+
+/* .cavel {
+    justify-self: flex-start;
+    height: 100%;
+}
+
+.caver {
+    justify-self: flex-end;
+    height: 100%;
+} */
