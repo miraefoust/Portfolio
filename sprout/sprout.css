@@ -23,6 +23,11 @@ a:active {
     text-decoration: none;
 }
 
+::selection {
+    color:rgb(255, 3, 3);
+    background: rgb(83, 23, 23);
+}
+
 @keyframes back{
     0% {left:4px; right:0px;}
     50% {left:0px; right: 4px;}
