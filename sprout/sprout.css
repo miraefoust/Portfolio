@@ -80,6 +80,17 @@ a:active {
     100% {opacity:100%}
 }
 
+@keyframes clouds{
+    0% {left:-20px; right: 20px;}
+    100% {left: 15px; right: -15px;}  
+}
+
+@keyframes cloud{
+    0% {left:-30px; right: 30px;}
+    100% {left: 30px; right: -30px;}  
+}
+
+
 .top {
     position: absolute;
     top: 0px;
@@ -266,6 +277,62 @@ a:active {
     /* img {
         width:100%;
     } */
+}
+
+.hill {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 94vh;
+    width:auto;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+
+    z-index: -3;
+}
+
+.cloud {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 94vh;
+    width:auto;
+    margin: 1rem;
+    display: flex;
+    justify-content: end;
+    z-index: -2;
+    animation-name: cloud;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+.clouds {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90vh;
+    width:auto;
+    margin: 2.5rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+    z-index: -5;
+    animation-name: clouds;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    overflow:hidden;
+
+    img {
+        width: 115%;
+
+    }
+    
 }
 
 .background {

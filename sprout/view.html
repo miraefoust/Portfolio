@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title> Sprout </title>
+        <link rel="icon" type="image" href="f.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sprout.css">
+        <script type="text/javascript">
+            var links = new Array();
+            links[0] = "mechanical.html";
+            links[1] = "kingmalt.html";
+            links[2] = "heron.html";
+            links[3] = "sand.html";
+            links[4] = "mech.html";
+            links[5] = "soldier.html";
+            
+            function openLink() {
+              var i = Math.floor(Math.random() * links.length);
+              parent.location = links[i];
+              return false;
+            }
+        </script>
+        <style>
+            :root {
+                --back: #808080;
+                --tekst: #000000;
+                --font: 'consolas', 'courier new';
+                --box: rgb(220, 220, 220);
+                --b: #000000;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <div class="top">
+            <!-- <div class="box">
+                Heron Fawn - journal nr.2
+            </div>
+            <div class="box story split">
+                <div class="split1">
+                    It's debatable, and perhaps just something that awaits too be seen, 
+                    whether the involvement of Heron Fawn in the court under King Malt is a positive in the longer run. 
+                <br>For now Fortitude has seen an improvement thanks to her "seeing" abilities. 
+                <br>It's the opinion of most who deal with her that she probably means good, 
+                    but she clearly considers herself slightly superior. 
+                    <br>She knows what is right, what's the best course of action. 
+                    Any questioning of her commands will not be taken kindly. 
+                    <br><br>She should consider herself lucky that the gods of this world 
+                    don't tend to take offence to mortal beings raising their heads too far up into the clouds. 
+                </div>
+                <div class="split2">
+                    <img style="mix-blend-mode: darken;" src="heron.jpg">
+                </div>
+            </div> -->
+        
+
+            
+            <div onclick="openLink();" class="box click">
+                    Throw another pebble
+            </div>
+            <div class="box shh">
+                Heihei, dette er et prosjekt i arbeid, som ikke er optimalisert for mindre skjermer. Snu telefonen din eller åpne siden på en større skjerm :)
+            </div>
+        </div>
+        <div class="main">
+            <img class="cavel" src="cave l.png">
+            <img class="caver" src="cave r.png">
+        </div>
+        <!-- <div class="main2">
+            <img style="opacity: 0%;" src="tree l.png">
+            <img src="tree r.png">
+        </div> -->
+        <div class="wall"></div>
+        <div class="hill">
+            <img class="" src="other.png">
+        </div>
+        <div class="cloud">
+            <img src="cloud.png">
+        </div>
+        <div class="clouds">
+            <img src="Artboard3.png">
+        </div>
+    </body>
