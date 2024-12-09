@@ -88,6 +88,19 @@ to {
 }
 }
 
+.overskrift {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-family: Eczar;
+    /* src: url(../../Dokumenter/fonts/Space_Mono/SpaceMono-Regular.ttf); */
+    /* src: url(../../Dokumenter/fonts/Space_Mono/SpaceMono-Regular.ttf); */
+    font-size: 8rem;
+    color: var(--tekst);
+    line-height: 8rem;
+    text-align: justify;
+    text-wrap: wrap;
+}
 
 .inngrid {
     display: grid;

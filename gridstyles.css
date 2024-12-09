@@ -430,6 +430,16 @@ iframe {
     width: auto;
 }
 
+.bildemain, .bytt:hover {
+    :root {
+        --byttimg: url(progb/risoselfblue.jpg);
+        }   
+}
+
+.hei:hover{
+    --img: url(bilder/ymt/ymt2.jpg)!important;
+}
+
 .changetek {
     z-index: 1;
 }
