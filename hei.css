@@ -108,7 +108,7 @@ background: #555;
     margin-bottom: 1rem;
 
     img {
-        width:100%;
+        max-width:100%;
     }
 
     video {
