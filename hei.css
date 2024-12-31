@@ -8,7 +8,11 @@
     --display: 'eczar';
 }
 
-/* randomized color highlight from Brandon Coyer */
+@font-face {
+    font-family: Eczar;
+    src: url(../../Dokumenter/fonts/Eczar/Eczar-VariableFont_wght.ttf)
+}
+
 ::selection {
     background: var(--highlight-color);
     color:#8de3a2;
@@ -305,6 +309,10 @@ background: #555;
     transform: translate(-50%, -50%);
     z-index: -3;
     font-size: 1.5rem;
+}
+
+.info:hover {
+    z-index: 2;
 }
 
 /* .boxed {
