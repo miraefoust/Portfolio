@@ -2,7 +2,7 @@
     --back: #463B53;
     --tekst: #A2A0EF;
     --highlight-color: #3c00ff;
-    --border: 0.10rem solid;
+    --border: 0.10vw solid;
     
     --font: 'consolas', 'courier new';
     --display: 'eczar';
@@ -23,7 +23,7 @@ a {
     font-family: var(--display);
     font-style: normal;
     color: var(--tekst);
-    font-size: 1.7rem;
+    font-size: 1.7vw;
     line-height: 0.9;
     text-decoration: underline;
 }
@@ -50,10 +50,11 @@ body {
     background-size: auto;
 }
 
-.main {
+.header {
     display: grid;
-    grid-template-rows: 13rem 1fr;
+    grid-template-rows: 1fr;
     width: 100%;
+    margin-bottom: 1vw;
     /* --back: #d8d4f5;
     --tekst: #4040db; */
 }
@@ -65,7 +66,7 @@ body {
     align-self: start; */
     /* position: fixed; */
 
-    width: 98vw;
+    /* width: 98vw; */
     height: fit-content;
     padding-bottom: 1rem;
     /* white-space: nowrap; */
@@ -298,7 +299,7 @@ background: #555;
     border-color: var(--tekst);
     border-style: solid;
     padding: 1rem;
-    width: 20rem;
+    width: 18vw;
 }
 
 .info {
@@ -478,12 +479,15 @@ background: #555;
     display: grid;
     grid-column-start: 1;
     grid-column-end: 5;
+}
+
+h1 {
     font-family: var(--display);
-    /* src: url(../../Dokumenter/fonts/Space_Mono/SpaceMono-Regular.ttf); */
-    /* src: url(../../Dokumenter/fonts/Space_Mono/SpaceMono-Regular.ttf); */
-    font-size: 8rem;
+    font-size: 8vw;
     color: var(--tekst);
-    line-height: 8rem;
+    line-height: 8vw;
+    font-weight: normal;
+    margin: 0;
 }
 
 h2 {
@@ -492,9 +496,9 @@ h2 {
     grid-column-end: 5;
     font-family: var(--display);
     font-weight: normal;
-    font-size: 8rem;
+    font-size: 8vw;
     color: var(--tekst);
-    line-height: 8rem;
+    line-height: 8vw;
 
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -507,8 +511,8 @@ h3 {
     font-family: var(--display);
     font-style: normal;
     color: var(--tekst);
-    font-size: 1.5rem;
-    line-height: 0.9;
+    font-size: 1.5vw;
+    line-height: 0.9vw;
     /* letter-spacing: 0.02em; */
     /* text-wrap:wrap; */
     white-space: nowrap;
@@ -524,8 +528,8 @@ h4 {
     font-family: var(--font);
     font-style: normal;
     color: var(--tekst);
-    font-size: 1rem;
-    line-height: 0.9;
+    font-size: 1vw;
+    line-height: 0.9vw;
     font-weight: normal;
 
     margin-block-start: 10px;
@@ -579,6 +583,15 @@ p {
         line-height: 8rem;
     }
 
+    h1 {
+        font-size: 10vw;
+        line-height: 10vw;
+    }
+
+    p {
+        font-size: 1vh;
+    }
+
     .tekstvb1 {
         grid-column-start: 1;
         grid-column-end: 5;
@@ -620,6 +633,11 @@ p {
 }
 
 @media only screen and (max-width: 600px) {  
+
+    p {
+        font-size: 1vh;
+    }
+
     .boxl {
         grid-column-start: 1;
         grid-column-end: 5;
