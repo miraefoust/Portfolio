@@ -249,6 +249,10 @@ background: #555;
 
     transition: transform .7s ease-in-out;
     box-shadow: #000000;
+
+    img {
+        width:100%;
+    }
 }
 
 .boxl {
@@ -537,7 +541,8 @@ p {
     font-family: var(--font);
     font-style: normal;
     color: var(--tekst);
-    font-size: 1.1rem;}
+    font-size: 1vw;
+}
 
 .tekstvb1 {
     grid-column-start: 1;
