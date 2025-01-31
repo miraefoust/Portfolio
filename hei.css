@@ -210,6 +210,12 @@ background: #555;
     padding-right: 8%; */
 }
 
+.koko {
+    background-color:#ffffff;
+    --back: #ffffff;
+    --tekst: #000000;
+}
+
 .rep {
     background-color:#ffffff;
     --back: #ffffff;
