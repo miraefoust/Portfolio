@@ -672,6 +672,10 @@ p {
         line-height: 0.9vw;
     }
 
+    .innhold {
+        border: none;
+    }
+
     .boxl, .boxr {
         margin: 0px;
         margin-bottom: 3rem;
@@ -732,11 +736,12 @@ p {
     }
 
     .knapp {
-        background-color: var(--back);
+        background-color: rgb(228, 248, 228);
         border-color: var(--tekst);
         border-style: solid;
-        padding: 1rem;
-        width: 20rem;
+        padding: 0.9vh;
+        margin-bottom: 0.6vh;
+        width: 10rem;
     }
     
     .overskrift {
@@ -809,7 +814,7 @@ p {
     .spanl {
         display: grid;
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 5;
         position: relative;
         width: 100%;
         outline: 3px solid none;
@@ -820,7 +825,7 @@ p {
     
     .spanr {
         display: grid;
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 5;
         position: relative;
         width: 100%;
@@ -832,8 +837,8 @@ p {
     
     .spanm {
         display: grid;
-        grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 5;
         position: relative;
         width: 100%;
         outline: 3px solid none;
@@ -879,5 +884,9 @@ p {
         z-index: 1;
         align-content: start;
         gap:0.3rem;
+    }
+
+    .tekstvb1, .tekstvb2, .innrammet {
+        padding: 0px;
     }
 }
