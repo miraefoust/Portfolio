@@ -185,6 +185,13 @@ background: #555;
     --tekst: #000000;
 }
 
+.rew {
+    background-color:#f9f6e9;
+    --back: #ffffff;
+    --tekst: #000000;
+}
+
+
 /* variasjon farge */
 
 
@@ -450,7 +457,7 @@ background: #555;
     outline-offset: -3px;
     z-index: 1;
     align-content: start;
-    gap:0.3rem;
+    margin-top: 1rem;
 }
 
 .bilder2 {
@@ -463,7 +470,7 @@ background: #555;
     outline-offset: -3px;
     z-index: 1;
     align-content: start;
-    gap:0.3rem;
+    margin-top: 1rem;
 }
 
 .shadow {
@@ -551,7 +558,7 @@ h4 {
 }
 
 p {
-    background-color: var(--back);
+    /* background-color: var(--back); */
     font-family: var(--font);
     font-style: normal;
     color: var(--tekst);
