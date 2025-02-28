@@ -209,6 +209,12 @@ background: #555;
     --tekst: #000000;
 }
 
+.nobel {
+    background-color:#fff1e6;
+    --back: #fff1e6;
+    --tekst: #000000;
+}
+
 .nytt {
     background-color:#ffffff;
     --back: #ffffff;
