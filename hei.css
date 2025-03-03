@@ -6,11 +6,22 @@
     
     --font: 'consolas', 'courier new';
     --display: 'eczar';
+    --display2: 'Space_mono';
 }
 
 @font-face {
     font-family: Eczar;
     src: url(fonts/Eczar/Eczar-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: DM_Mono;
+    src: url(fonts/DM_Mono/DMMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: Space_mono;
+    src: url(fonts/Space_Mono/SpaceMono-Regular.ttf);
 }
 
 ::selection {
@@ -531,7 +542,7 @@ h2 {
 
 h3 {
     display: inline-block;
-    font-family: var(--display);
+    font-family: var(--display2);
     font-style: normal;
     color: var(--tekst);
     font-size: 1.5vw;
