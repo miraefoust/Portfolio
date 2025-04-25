@@ -240,6 +240,12 @@ background: #555;
     --tekst: #000000;
 }
 
+.comet {
+    background-color:#c3d3d0;
+    --back: #c3d3d0;
+    --tekst: #000000;
+}
+
 .rep {
     background-color:#ffffff;
     --back: #ffffff;
